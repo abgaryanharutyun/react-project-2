@@ -21,7 +21,9 @@ export default class Level2 extends Component {
         this.ElementsArr();
     }
 
-    level2Click = () => {
+    level2Click = (props) => {
+        alert(props.color)
+        // Ay aysetx stugum dreq ete  props.color=='blue' nor this.ElementsArr() kancheq u uje karaq count ++ anenq
         this.ElementsArr();
     }
 
